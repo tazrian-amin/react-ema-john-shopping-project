@@ -15,6 +15,32 @@
     background-color: rgba(255, 153, 0, 0.3);
 }
 
+.pagination {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination button {
+    margin-right: 10px;
+}
+
+.pagination .selected {
+    background-color: rgba(255, 153, 0, 0.3);
+    padding: 10px;
+    font-weight: 700;
+}
+
+.pagination .show {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
 @media screen and (max-width:1100px) {
     .products-container {
         grid-template-columns: repeat(2, 1fr);
